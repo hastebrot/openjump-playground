@@ -1,0 +1,13 @@
+# gradle cache and build files.
+.gradle/
+build/
+out/
+
+# intellij project files.
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# apple macos.
+*.DS_Store
