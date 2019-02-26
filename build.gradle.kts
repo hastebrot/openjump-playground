@@ -18,6 +18,8 @@ dependencies {
     compile(kotlin("stdlib", kotlinVersion))
     compile(kotlin("stdlib-jdk7", kotlinVersion))
     compile(kotlin("stdlib-jdk8", kotlinVersion))
+    compile(files("vendor/OpenJUMP-1.14-r6065-CORE/lib/OpenJUMP-1.14-r6065-nosrc.jar"))
+    compile(files("vendor/OpenJUMP-1.14-r6065-CORE/lib/jts-core-1.14.0.jar"))
 }
 
 java {
