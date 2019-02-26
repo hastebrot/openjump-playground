@@ -6,7 +6,6 @@ val kotlinVersion by extra { "1.3.21" }
 
 plugins {
     val kotlinVersion = "1.3.21"
-
     kotlin("jvm") version kotlinVersion
 }
 
@@ -18,7 +17,9 @@ dependencies {
     compile(kotlin("stdlib", kotlinVersion))
     compile(kotlin("stdlib-jdk7", kotlinVersion))
     compile(kotlin("stdlib-jdk8", kotlinVersion))
-    compile(fileTree("vendor/OpenJUMP-1.14-r6065-CORE/lib"))
+    compile(fileTree("vendor/OpenJUMP-1.14-r6065-CORE/lib") {
+        include("*.jar")
+    })
 }
 
 java {
