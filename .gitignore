@@ -1,13 +1,14 @@
-# gradle cache and build files.
+# build files.
 .gradle/
 build/
 out/
 
-# intellij project files.
+# project files.
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# apple macos.
+# cache and log files.
 *.DS_Store
+openjump.log
