@@ -2,7 +2,7 @@
 
 examples:
 
-- src/main/kotlin/loadShapefile.kt
+- [src/main/kotlin/loadShapefile.kt](src/main/kotlin/loadShapefile.kt)
 
 toolstack:
 
